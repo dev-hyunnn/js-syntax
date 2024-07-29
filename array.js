@@ -1,0 +1,7 @@
+var arr = ['A', 'B', 'C', 'D'];
+console.log(arr[3]);
+arr[3] = 5;
+console.log(arr[3]);
+console.log(arr.length);
+arr.push('E'); // 배열에 값 추가
+console.log(arr);
